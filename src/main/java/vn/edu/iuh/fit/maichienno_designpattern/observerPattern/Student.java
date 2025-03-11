@@ -9,6 +9,6 @@ public class Student implements Observer{
 
     @Override
     public void update(String message) {
-        System.out.println("Thông báo cho sinh viên " + name + ": " + message);
+        System.out.println("Thong bao cho sinh vien " + name + ": " + message);
     }
 }

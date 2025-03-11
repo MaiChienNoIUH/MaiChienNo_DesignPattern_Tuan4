@@ -23,7 +23,7 @@ public class Clazz implements Subject{
 
     @Override
     public void notifyObservers(String message) {
-        System.out.println("Thông báo từ lớp " + className + ": " + message);
+        System.out.println("Thong bao tu lop " + className + ": " + message);
         for (Observer observer : observers) {
             observer.update(message);
         }
